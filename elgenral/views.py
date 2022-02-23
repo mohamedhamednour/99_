@@ -6,6 +6,6 @@ from django.shortcuts import render, redirect
 
 # Create your views here.
 def home(request):
-    name = 'ffbb'
+    name = 'ffb'
     return render(request, 'elgenral/home.html')
 
